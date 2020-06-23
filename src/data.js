@@ -1,19 +1,18 @@
 import Background1 from './images/image-1.jpg'
-import Background2 from './images/image-2.JPG'
-import Background3 from './images/image-3.JPG'
-import Background4 from './images/image-4.JPG'
-import Background5 from './images/image-5.JPG'
-import Background6 from './images/image-6.JPG'
-import Background7 from './images/image-7.JPG'
-import Background8 from './images/image-8.JPG'
-import Background9 from './images/image-9.JPG'
-import Background10 from './images/image-10.JPG'
-import Background11 from './images/image-11.JPG'
-import Background12 from './images/image-12.JPG'
+import Background2 from './images/image-2.jpg'
+import Background3 from './images/image-3.jpg'
+import Background4 from './images/image-4.jpg'
+import Background5 from './images/image-5.jpg'
+import Background6 from './images/image-6.jpg'
+import Background7 from './images/image-7.jpg'
+import Background8 from './images/image-8.jpg'
+import Background9 from './images/image-9.jpg'
+import Background10 from './images/image-10.jpg'
+import Background11 from './images/image-11.jpg'
+import Background12 from './images/image-12.jpg'
 
 
-export default [
-  {
+export default  [{
     css:
       `url(${Background1})`,
     height: 300
