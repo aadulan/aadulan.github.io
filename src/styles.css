@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+* {
+  box-sizing: content-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  /* overflow: scrol; */
+  overflow: hidden;
+  user-select: none;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html, div#root {
+  height: 100%;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
+  
+}
+
+/* div#root {
+  overflow-y: scroll;
+  overflow-x: hidden;
+} */
+
+#root {
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  background: #f0f0f0;
+  padding-top: 15px;
+}
+
+.list {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
+    segoe ui, arial, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.list > div {
+  position: absolute;
+  will-change: transform, width, height, opacity;
+  padding: 15px;
+}
+
+.list > div > div {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 10px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 300px) {
+  .card {
+    width: 16rem;
+    height: 11rem ;
+    /* /* background-color: transparent; */
+    background: #ffffff; 
+    /* border-radius: 5px; */
+    background-position: center center;
+    box-shadow: 5px 15px 15px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.7s;
+    will-change: transform;
+    /* border: 8px solid white; */
+    margin: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 400px) {
+  .card {
+    width: 22rem;
+    height: 10rem ;
+    /* /* background-color: transparent; */
+    background: #ffffff; 
+    /* border-radius: 5px; */
+    background-position: center center;
+    box-shadow: 5px 15px 15px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.7s;
+    will-change: transform;
+    /* border: 8px solid white; */
+    margin: 20px;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .card {
+    width: 30rem;
+    /* /* width: 30em; */
+    height: 10rem ;
+    /* /* background-color: transparent; */
+    background: #ffffff; 
+    /* border-radius: 5px; */
+    background-position: center center;
+    box-shadow: 5px 15px 15px -5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.7s;
+    will-change: transform;
+    /* border: 8px solid white; */
+    margin: 20px;
+  }
+  
+}
+
+
+
+
+.card:hover {
+  box-shadow: 5px 25px 25px -20px rgba(0, 0, 0, 0.6);
+}
+
+.MuiTypography-h5 {
+  font-family: 'Fira Sans', sans-serif;
+  
+}
+
+.MuiTypography-h4 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
+
+.MuiTypography-body2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-style: italic;
+}
