@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 html,
@@ -10,8 +10,8 @@ body,
   margin: 0;
   height: 100%;
   width: 100%;
+  /* overflow: scrol; */
   overflow: hidden;
-  /* over/flow-x: hidden; */
   user-select: none;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -22,7 +22,7 @@ html, div#root {
 }
 
 div#root {
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   overflow-x: hidden;
 }
 
@@ -34,7 +34,7 @@ div#root {
   padding-top: 15px;
 }
 
-/* .list {
+.list {
   position: relative;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto,
     segoe ui, arial, sans-serif;
@@ -60,11 +60,12 @@ div#root {
   line-height: 10px;
   border-radius: 4px;
   box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.2);
-} */
+}
 
 .card {
-  width: 30em;
-  height: 10em;
+  width: 30rem;
+  /* /* width: 30em; */
+  height: 10rem ;
   /* /* background-color: transparent; */
   background: #ffffff; 
   /* border-radius: 5px; */

@@ -3,6 +3,7 @@ import './styles.css';
 import Ash from './Ash'
 import EducationSection from './Section'
 import ProjectSection from './ProjectSection'
+import Gallery from './gallery'
 
 import { Grid } from '@material-ui/core';
 
@@ -15,6 +16,9 @@ function App() {
       <Grid container direction="row" justify="center" alignItems="center" item style={{backgroundColor: '#cfd8dc'}} xs={12}>
           <EducationSection/>
         <ProjectSection/>
+      </Grid>
+      <Grid item>
+        <Gallery/>
       </Grid>
     </Grid>
 
