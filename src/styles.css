@@ -18,13 +18,15 @@ body,
 
 html, div#root {
   height: 100%;
+  /* overflow-y: scroll; */
+  /* overflow-x: hidden; */
   
 }
 
-div#root {
-  /* overflow-y: scroll; */
+/* div#root {
+  overflow-y: scroll;
   overflow-x: hidden;
-}
+} */
 
 #root {
   overflow: auto;
