@@ -48,9 +48,9 @@ function App() {
                 <Grid justifyContent="center" alignItems="center" container item xs>
                   <Grid item>
                     <Avatar
-                      sx={{ width: '14rem', height: '14rem' }}
+                      sx={{ width: '15rem', height: '15rem' }}
                       alt="Ash"
-                      src="ash.JPG"
+                      src="https://avatars.githubusercontent.com/u/24231419?v=4"
                     />
                   </Grid>
                 </Grid>
@@ -63,11 +63,16 @@ function App() {
                   xs
                 >
                   <Grid item>
-                    <Typography
-                      variant="h4"
-                      sx={{ fontWeight: '100', fontStyle: 'italic' }}
-                    >
+                    <Typography variant="h4" sx={{ fontWeight: '500' }}>
                       Asmita Dulan
+                    </Typography>
+                  </Grid>
+                  <Grid item>
+                    <Typography
+                      variant="h6"
+                      sx={{ fontWeight: '200', fontStyle: 'italic' }}
+                    >
+                      Software Engineer
                     </Typography>
                   </Grid>
                   <Grid item>
