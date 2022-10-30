@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/solve-x/:asset*",
+      "destination": "https://aadulan.github.io/solve-x/:asset*"
+    }
+  ]
+}
